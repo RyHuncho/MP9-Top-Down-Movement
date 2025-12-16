@@ -41,6 +41,7 @@ scale_curve = SubResource("CurveTexture_pb15w")
 alpha_curve = SubResource("CurveTexture_d46nv")
 
 [node name="Runner" type="CharacterBody2D"]
+position = Vector2(0, -14)
 motion_mode = 1
 script = ExtResource("1_h1hi2")
 
