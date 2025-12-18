@@ -10,6 +10,8 @@ extends CharacterBody2D
 
 @onready var _runner_visual: RunnerVisual = %RunnerVisualRed
 @onready var _dust: GPUParticles2D = %Dust
+@onready var _bouncer: CharacterBody2D = %Bouncer
+
 
 ## Emitted when the character has walked to the specified destination.
 signal walked_to
