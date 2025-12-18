@@ -8,7 +8,7 @@
 [ext_resource type="Theme" uid="uid://cdcyvsn1fp8wa" path="res://assets/countdown/count_down_theme.tres" id="7_viysf"]
 [ext_resource type="Script" uid="uid://57e8080cpukf" path="res://assets/countdown/count_down.gd" id="8_tpjcj"]
 [ext_resource type="PackedScene" uid="uid://budpgxkjtmw1f" path="res://lessons/bouncer.tscn" id="9_8c4bg"]
-[ext_resource type="PackedScene" path="res://lessons/pause_screen.tscn" id="9_tpjcj"]
+[ext_resource type="PackedScene" uid="uid://dj6ye05dbiqpi" path="res://lessons/pause_screen.tscn" id="9_tpjcj"]
 
 [node name="Game" type="Node2D"]
 y_sort_enabled = true
@@ -61,3 +61,6 @@ metadata/_edit_use_anchors_ = true
 [node name="Bouncer" parent="." instance=ExtResource("9_8c4bg")]
 unique_name_in_owner = true
 position = Vector2(-314, 4)
+max_speed = 600.0
+acceleration = 1200.0
+avoidance_strength = 21000.0
